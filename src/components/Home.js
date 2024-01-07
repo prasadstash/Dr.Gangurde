@@ -20,13 +20,10 @@ const Home = () => {
           
           <a href="https://www.swiggy.com/restaurants/the-bowl-licious-gaonthan-baner-pune-803715" className="btnSwiggy">
             Swiggy
-<<<<<<< HEAD
           </a>
 
           <a href="https://rawfoodsandbeverages.petpooja.com/orders/menu" className="btn">
             Take Away
-=======
->>>>>>> 079d0d4feadf2df04b73602f791ec3c4039858c5
           </a>
         </div>
       </section>
