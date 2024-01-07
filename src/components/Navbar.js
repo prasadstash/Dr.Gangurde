@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/Bowlicious_Logo_11zon.png";
 import { cart } from "../Data";
 
 const Navbar = () => {
@@ -30,13 +30,13 @@ const Navbar = () => {
           <img src={Logo} alt="" />
         </a>
         <nav className="navbar" ref={navbarRef}>
-          <a href="#home">home</a>
-          <a href="#about">about</a>
-          <a href="#menu">menu</a>
-          <a href="#products">products</a>
-          <a href="#review">review</a>
-          <a href="#contact">contact</a>
-          <a href="#blogs">blogs</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#products">Products</a>
+          {/* <a href="#review">Review</a> */}
+          <a href="#contact">Contact</a>
+          {/* <a href="#blogs">Blogs</a> */}
         </nav>
         <div className="icons">
           <div
@@ -44,11 +44,11 @@ const Navbar = () => {
             id="search-btn"
             onClick={searchHandler}
           ></div>
-          <div
+          {/* <div
             className="fas fa-shopping-cart"
             id="cart-btn"
             onClick={cartHandler}
-          ></div>
+          ></div> */}
           <div
             className="fas fa-bars"
             id="menu-btn"
@@ -59,7 +59,7 @@ const Navbar = () => {
           <input type="search" id="search-box" placeholder="search here..." />
           <label htmlFor="search-box" className="fas fa-search"></label>
         </div>
-        <div className="cart-items-container" ref={cartRef}>
+        {/* <div className="cart-items-container" ref={cartRef}>
           {cart.map((item, index) => (
             <div className="cart-item" key={index * Math.random()}>
               <span className="fas fa-times"></span>
@@ -73,7 +73,7 @@ const Navbar = () => {
           <a href="#" className="btn">
             checkout now
           </a>
-        </div>
+        </div> */}
       </header>
     </>
   );

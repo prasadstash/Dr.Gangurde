@@ -6,13 +6,15 @@ const Home = () => {
       <section className="home" id="home">
         <div className="content">
           <h3>
-            fresh <span>food in the </span>morning
+          Delicious <span>Bowls</span>
+          </h3>
+          <h3>
+          Delivered to your <span>Soul!</span>
           </h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
-            labore, sint cupiditate distinctio tempora reiciendis.
+          Elevating your dining experience with a symphony of flavors, served exclusively in delightful bowls. Discover culinary joy online!
           </p>
-          <a href="#" className="btn">
+          <a href="https://www.zomato.com/pune/the-bowl-licious-baner" className="btn">
             get yours now
           </a>
         </div>

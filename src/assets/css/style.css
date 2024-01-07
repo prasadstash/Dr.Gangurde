@@ -50,7 +50,7 @@ section {
 }
 
 .heading span {
-  color: #ffc107;
+  color: #ed2124;
   text-transform: uppercase;
 }
 
@@ -60,7 +60,7 @@ section {
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
   color: #fff;
-  background: #ffc107;
+  background: #ed2124;
   cursor: pointer;
 }
 
@@ -74,7 +74,7 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 8px 7%;
-  border-bottom: 0.2rem solid #ffc107;
+  border-bottom: 0.2rem solid #ed2124;
   position: fixed;
   top: 0;
   left: 0;
@@ -93,8 +93,8 @@ section {
 }
 
 .header .navbar a:hover {
-  color: #ffc107;
-  border-bottom: 0.1rem solid #ffc107;
+  color: #ed2124;
+  border-bottom: 0.1rem solid #ed2124;
   padding-bottom: 0.5rem;
 }
 
@@ -106,7 +106,7 @@ section {
 }
 
 .header .icons div:hover {
-  color: #ffc107;
+  color: #ed2124;
 }
 
 #menu-btn {
@@ -147,7 +147,7 @@ section {
 }
 
 .header .search-form label:hover {
-  color: #ffc107;
+  color: #ed2124;
 }
 
 .header .cart-items-container {
@@ -182,7 +182,7 @@ section {
 }
 
 .header .cart-items-container .cart-item .fa-times:hover {
-  color: #ffc107;
+  color: #ed2124;
 }
 
 .header .cart-items-container .cart-item img {
@@ -197,7 +197,7 @@ section {
 
 .header .cart-items-container .cart-item .content .price {
   font-size: 1.5rem;
-  color: #ffc107;
+  color: #ed2124;
 }
 
 .header .cart-items-container .btn {
@@ -210,7 +210,7 @@ section {
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
-    url(../images/home-img) no-repeat;
+    url(../images/CoverPhoto.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -220,7 +220,7 @@ section {
 }
 
 .home span {
-  color: #ffc107;
+  color: #ed2124;
   text-transform: uppercase;
 }
 
@@ -279,7 +279,7 @@ section {
 .menu .box-container .box {
   padding: 5rem;
   text-align: center;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid #ed2124;
 }
 
 .menu .box-container .box img {
@@ -312,7 +312,7 @@ section {
 
 .products .box-container .box {
   text-align: center;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid #ed2124;
   padding: 2rem;
 }
 
@@ -321,13 +321,13 @@ section {
   width: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid #ed2124;
   color: #fff;
   margin: 0.3rem;
 }
 
 .products .box-container .box .icons a:hover {
-  background: #ffc107;
+  background: #ed2124;
 }
 
 .products .box-container .box .image {
@@ -349,7 +349,7 @@ section {
 
 .products .box-container .box .content .stars i {
   font-size: 1.7rem;
-  color: #ffc107;
+  color: #ed2124;
 }
 
 .products .box-container .box .content .price {
@@ -364,7 +364,7 @@ section {
 }
 
 .review .box-container .box {
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid #ed2124;
   text-align: center;
   padding: 3rem 2rem;
 }
@@ -391,7 +391,7 @@ section {
 
 .review .box-container .box .stars i {
   font-size: 1.5rem;
-  color: #ffc107;
+  color: #ed2124;
 }
 
 .contact .row {
@@ -425,7 +425,7 @@ section {
   margin-top: 2rem;
   margin-bottom: 2rem;
   background: #13131a;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid #ed2124;
 }
 
 .contact .row form .inputBox span {
@@ -444,7 +444,7 @@ section {
 }
 
 .blogs .box-container .box {
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid #ed2124;
 }
 
 .blogs .box-container .box .image {
@@ -474,11 +474,11 @@ section {
 }
 
 .blogs .box-container .box .content .title:hover {
-  color: #ffc107;
+  color: #ed2124;
 }
 
 .blogs .box-container .box .content span {
-  color: #ffc107;
+  color: #ed2124;
   display: block;
   padding-top: 1rem;
   font-size: 2rem;
@@ -506,13 +506,13 @@ section {
   line-height: 5rem;
   font-size: 2rem;
   color: #fff;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid #ed2124;
   margin: 0.3rem;
   border-radius: 50%;
 }
 
 .footer .share a:hover {
-  background-color: #ffc107;
+  background-color: #ed2124;
 }
 
 .footer .links {
@@ -526,12 +526,12 @@ section {
 .footer .links a {
   padding: 0.7rem 2rem;
   color: #fff;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid #ed2124;
   font-size: 2rem;
 }
 
 .footer .links a:hover {
-  background: #ffc107;
+  background: #ed2124;
 }
 
 .footer .credit {
@@ -542,7 +542,7 @@ section {
 }
 
 .footer .credit span {
-  color: #ffc107;
+  color: #ed2124;
 }
 
 /* media queries  */

@@ -4,10 +4,12 @@ const Menu = () => {
   return (
     <>
       <section className="menu" id="menu">
-        <h1 className="heading">
-          our <span>menu</span>
-        </h1>
 
+
+         <h1 className="heading">
+          <span>Menu</span>
+        </h1>
+        {/*
         <div className="box-container">
           {menu.map((item, index) => (
             <div className="box" key={index * Math.random()}>
@@ -21,7 +23,7 @@ const Menu = () => {
               </a>
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
     </>
   );

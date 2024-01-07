@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../assets/images/about-img";
+import AboutImg from "../assets/images/Bowlicious_AboutMe.jpg";
 const About = () => {
   return (
     <>
@@ -16,16 +16,22 @@ const About = () => {
           <div className="content">
             <h3>what makes our food special?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae
-              ratione a officiis id temporibus autem? Quod nemo facilis
-              cupiditate. Ex, vel?
+            Indulge in an unparalleled culinary experience at our establishment,
+             where authenticity takes center stage. We pride ourselves on using only the finest ingredients,
+             ensuring a delectable feast with no artificial colors or preservatives.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-              amet enim quod veritatis, nihil voluptas culpa! Neque consectetur
-              obcaecati sapiente?
+            Explore a diverse menu that spans North Indian delights, tantalizing Thai dishes,
+            flavorful pasta, succulent kebabs, and refreshing milkshakes.
+            Whether it's a casual meal or a special occasion, we cater to all tastes and preferences.
             </p>
+            <p>
+            Additionally,
+            we welcome party orders, guaranteeing a memorable and flavorful celebration for every palate.
+            </p>
+             
+            
+            
             <a href="#" className="btn">
               learn more
             </a>
