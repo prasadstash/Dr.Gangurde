@@ -10,7 +10,7 @@ const Contact = () => {
         <div class="row">
           <iframe
             class="map"
-            src="https://www.google.com/maps/@18.5610163,73.7862826,19z"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11993.267641772954!2d73.7862826!3d18.5610163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfcc374eb445%3A0x54b6fbe6e5847ed3!2sThe%20Bowl%20Licious!5e0!3m2!1sen!2s!4v1633364807635!5m2!1sen!2s"
             allowfullscreen=""
             loading="lazy"
           ></iframe>
