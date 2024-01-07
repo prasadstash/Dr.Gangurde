@@ -54,13 +54,28 @@ section {
   text-transform: uppercase;
 }
 
+
+/* Swiggy Color #ff7f00 */
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
   padding: 0.9rem 3rem;
+  margin: 1rem;
   font-size: 1.7rem;
   color: #fff;
   background: #ff3131;
+  cursor: pointer;
+}
+
+.btnSwiggy {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  margin: 1rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: #ff7f00;
   cursor: pointer;
 }
 
