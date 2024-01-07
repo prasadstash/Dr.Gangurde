@@ -83,6 +83,9 @@ section {
   letter-spacing: 0.2rem;
 }
 
+.btnSwiggy:hover {
+  letter-spacing: 0.2rem;
+}
 .header {
   background: #010103;
   display: flex;
