@@ -5,11 +5,11 @@ const Footer = () => {
     <>
       <section class="footer">
         <div class="share">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
-          <a href="#" class="fab fa-linkedin"></a>
-          <a href="#" class="fab fa-pinterest"></a>
+          <a href="https://www.facebook.com/people/The-BOWL-Licious/61553757894493/?mibextid=LQQJ4d" class="fab fa-facebook-f"></a>
+          {/* <a href="" class="fab fa-twitter"></a> */}
+          <a href="https://www.instagram.com/thebowl.licious" class="fab fa-instagram"></a>
+          {/* <a href="#" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-pinterest"></a> */}
         </div>
         <div class="links">
           <a href="#">home</a>
