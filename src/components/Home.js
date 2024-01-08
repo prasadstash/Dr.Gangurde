@@ -14,7 +14,7 @@ const Home = () => {
           <p>
           Elevating your dining experience with a symphony of flavors, served exclusively in delightful bowls. Discover culinary joy online!
           </p>
-          <a href="https://www.zomato.com/pune/the-bowl-licious-baner" className="btn">
+          <a href="https://www.zomato.com/pune/the-bowl-licious-baner/order" className="btn">
             Zomato
           </a>
           
