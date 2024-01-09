@@ -22,7 +22,7 @@ const Home = () => {
             Swiggy
           </a>
 
-          <a href="https://rawfoodsandbeverages.petpooja.com/orders/menu" className="btn">
+          <a href="#contact" className="btn">
             Take Away
           </a>
         </div>
