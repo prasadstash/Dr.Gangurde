@@ -33,7 +33,7 @@ const Navbar = () => {
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#menu">Menu</a>
-          <a href="#shef">Shef</a>
+          <a href="#shef">Chef</a>
           {/* <a href="#products">Products</a> */}
           {/* <a href="#review">Review</a> */}
           <a href="#contact">Contact</a>

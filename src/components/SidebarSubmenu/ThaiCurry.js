@@ -12,6 +12,7 @@ const ThaiCurry = () => {
             return (
               <li key={key} className="BubbleList">
                 <div className="row">
+                {/* <img src={require("../../../src/assets/images/cart-item-3.png")} style={{ width: 200, height: 200 }} /> */}
                   <ul className="nameprice">
                     <div className="name">{val.Name}</div>
                     <div className="price">Price: {val.Price}</div>

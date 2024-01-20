@@ -126,43 +126,43 @@ export const ThaiCurryy = [
       "Price": 159
     },
     {
-      "Name": "Oreo Milkshake 300ml (No Sugar)",
+      "Name": "Oreo Milkshake 300ml ",
       "Description": "Classic Oreo milkshake loaded with Oreo, milk, and ice cream.",
       "Price": 149
     },
     {
-      "Name": "Chocolate Milkshake 300ml (No Sugar)",
+      "Name": "Chocolate Milkshake 300ml ",
       "Description": "Classic chocolate milkshake loaded with chocolate, milk, and ice cream.",
       "Price": 149
     },
     {
-      "Name": "Strawberry Milkshake 300ml (No Sugar)",
+      "Name": "Strawberry Milkshake 300ml ",
       "Description": "Love strawberry? Try our strawberry milkshake loaded with strawberry, milk, and ice cream.",
       "Price": 149
     },
     {
-      "Name": "Mango Milkshake 300ml (No Sugar)",
+      "Name": "Mango Milkshake 300ml ",
       "Description": "Love mango? Try our mango milkshake loaded with mango pulp, milk, and ice cream.",
       "Price": 149
     },
     {
-      "Name": "Kitkat Milkshake 300ml (No Sugar)",
+      "Name": "Kitkat Milkshake 300ml ",
       "Description": "Classic Kitkat milkshake loaded with Kitkat, milk, and ice cream.",
       "Price": 149
     },
     {
-      "Name": "Thick Cold Coffee 300ml (No Sugar)",
+      "Name": "Thick Cold Coffee 300ml ",
       "Description": "Classic thick cold coffee with ice cream.",
       "Price": 149
     }
   ];
   
 
-   export const Drinkss =  [
+   export const Beveragess =  [
     
    ]
 
-   export const Beveragess = [
+   export const Dessertss = [
     {
       "Name": "Gulab Jamun - Pack of 1",
       "Description": "Gulab Jamun",
@@ -225,9 +225,7 @@ export const ThaiCurryy = [
   ];
   
 
-   export const Dessertss = [
    
-  ]
 
   export const Kebabss = [
     {

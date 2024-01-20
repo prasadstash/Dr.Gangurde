@@ -7,7 +7,7 @@ import {  Route, Routes, Link } from 'react-router-dom';
 const Sidebar = () => {
     return (
       <>  
-          <div className='SidebarBody'>
+          <div id='menu' className='SidebarBody'>
               <section>
                   <h1 className='heading'>our <span>MENU</span></h1>
                   

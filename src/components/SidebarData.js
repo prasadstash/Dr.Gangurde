@@ -5,7 +5,6 @@ export const SidebarData = [
         title: 'North Indian',
         path: '/',
         component: 'NorthIndian'
-        
     },
     {
         title: 'Thai Curry',
