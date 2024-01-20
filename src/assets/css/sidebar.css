@@ -1,0 +1,94 @@
+.SidebarBody {
+    background-color:#13131a;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin: 100px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.SidebarContainer{
+    display: flex;
+}
+
+.SidebarChild {
+    height: 100%;
+    width: 200px;
+    background-color:#3b444b;
+    border-radius: 8px; 
+
+}   
+
+.SidebarChild1 {
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    height: 400px;
+    width: 200px;
+    background-color:#3b444b;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0.5;
+    border-radius: 8px; 
+    overflow-y: scroll;
+} 
+
+.SidebarList{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 20px;
+    justify-content: center;
+    
+}
+
+.SidebarList .row {
+    
+    padding: 3px;
+    padding-bottom: 7px;
+    border: 4px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+.SidebarList .row:hover {
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    color: #ff3131;
+}
+
+.SidebarMenu{
+    height: 100%;
+    
+    background-color:rgb(99, 99, 99);
+    
+    border-radius: 8px; 
+}
+
+/* .SidebarChild .subMenu{
+    padding: 5px;
+    width: -webkit-fill-available;
+    
+    
+} */
+
+.SidebarBody {
+    background-color:#13131a;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin: 100px;
+
+}
+
+@media (max-width: 412px) {
+    .SidebarBody {
+        background-color:#13131a;
+        padding: 5px;
+        padding-bottom: 5px;
+        margin: 5px;
+        height: 500px;
+    }
+}

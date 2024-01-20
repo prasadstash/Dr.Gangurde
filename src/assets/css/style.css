@@ -33,13 +33,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: #010103;
+  background: #000000;
   overflow-x: hidden;
 }
 
 section {
   padding: 2rem 7%;
 }
+
 
 .heading {
   text-align: center;

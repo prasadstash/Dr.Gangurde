@@ -1,0 +1,60 @@
+.BubbleList .row {
+    
+    list-style-type: none;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #000000;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 8px;
+    color: #ffff;
+    /* text-transform: lowercase; */
+    width: 95%;
+}
+
+
+.BubbleList{
+    list-style-type: none;
+    /* display: flex; */
+}
+
+
+.BubbleList .row .name {
+   font-size: large;
+   display: flex;
+}
+
+.BubbleList .row .description {
+    font-size: small;
+    flex-wrap: wrap;
+    position: inherit;
+    
+ }
+
+ .BubbleList .row .price {
+    font-size: large;
+    color: #ff3131;
+    position: calc(100% - 20px);
+    justify-content: end;
+
+ }
+
+ .BubbleList .row .nameprice {
+   display: flex;
+   padding-bottom: 3px;
+   flex-basis: 100px;
+   justify-content: space-between;
+   padding-bottom: 10px;
+ }
+
+ .BubbleList .row .veg {
+    font-size: large;
+ }
+
+ .BubbleList .row .nonveg {
+    font-size: large;
+ }
+
+ @media (max-width: 412px) {
+   
+  }
