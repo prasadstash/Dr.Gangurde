@@ -5,12 +5,17 @@ import FatherSubmenu from "./SidebarSubmenu/FatherSubmenu";
 import { Route, Routes, Link } from "react-router-dom";
 
 const Sidebar = () => {
-  const sidebarRef = useRef();
+  // Create an array of refs, one for each item
+  const sidebarRef = SidebarData.map(() => useRef());
 
-  const activeHandler = () => {
-    sidebarRef.current.classList.toggle("active");
+  // Function to handle the click event for each item
+  const activeHandler = (key) => {
+    sidebarRef[index].current.classList.toggle("active");
   };
 
+
+
+  
   return (
     <>
       <div id="menu" className="SidebarBody">
@@ -25,13 +30,15 @@ const Sidebar = () => {
             <ul className="SidebarList">
               {SidebarData.map((val, key) => {
                 return (
-                  <nav className="nav" ref={sidebarRef}>
-                    <li key={key}>
-                      <Link to={val.path}>
-                        <div className="row">{val.title}</div>
-                      </Link>
-                    </li>
-                  </nav>
+                  <li key={key}>
+                    <Link
+                      to={val.path}
+                      ref={sidebarRef[key]}
+                      onClick={() => activeHandler(key)}
+                    >
+                      <div className="row">{val.title}</div>
+                    </Link>
+                  </li>
                 );
               })}
             </ul>

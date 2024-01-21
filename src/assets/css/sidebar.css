@@ -83,8 +83,8 @@ ul {
 
 }
 
-.nav{
-    
+.SidebarList .active{
+    color: #ff3131;
 }
 
 @media (max-width: 412px) {
