@@ -1,6 +1,28 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_57bm5so', 'template_gq63sdt', form.current, 'Yw33ABFhWRFRGZv3l')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+ 
+
+
+
+
   return (
     <>
       <section class="contact" id="contact">
@@ -15,19 +37,19 @@ const Contact = () => {
             loading="lazy"
           ></iframe>
 
-          <form action="">
+          <form ref={form} onSubmit={sendEmail}>
             <h3>get in touch</h3>
             <div class="inputBox">
               <span class="fas fa-user"></span>
-              <input type="text" placeholder="name" />
+              <input name="from_name" type="text" placeholder="name" />
             </div>
             <div class="inputBox">
               <span class="fas fa-envelope"></span>
-              <input type="email" placeholder="email" />
+              <input name="from_email" type="email" placeholder="email" />
             </div>
             <div class="inputBox">
               <span class="fas fa-phone"></span>
-              <input type="number" placeholder="number" />
+              <input name="from_number" type="number" placeholder="number" />
             </div>
             <input type="submit" value="contact now" class="btn" />
           </form>

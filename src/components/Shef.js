@@ -5,7 +5,7 @@ const Shef = () => {
     <>
         <section id='shef'>
             <h1 className='heading'>
-                <span>Chef</span>
+                About <span>Chef</span>
             </h1>
             <h1></h1>
         </section>

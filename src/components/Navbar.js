@@ -6,6 +6,7 @@ const Navbar = () => {
   const navbarRef = useRef();
   const searchRef = useRef();
   const cartRef = useRef();
+  
   const navbarHandler = () => {
     navbarRef.current.classList.toggle("active");
     searchRef.current.classList.remove("active");
@@ -40,11 +41,11 @@ const Navbar = () => {
           {/* <a href="#blogs">Blogs</a> */}
         </nav>
         <div className="icons">
-          <div
+          {/* <div
             className="fas fa-search"
             id="search-btn"
             onClick={searchHandler}
-          ></div>
+          ></div> */}
           {/* <div
             className="fas fa-shopping-cart"
             id="cart-btn"
